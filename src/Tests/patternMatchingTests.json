@@ -1,0 +1,21 @@
+[
+    {
+      "input": {
+        "text": "ABABDABACDABABCABAB",
+        "pattern": "ABABCABAB"
+      },
+      "expected": {
+        "indices": [10]
+      }
+    },
+    {
+      "input": {
+        "text": "AAAAA",
+        "pattern": "AA"
+      },
+      "expected": {
+        "indices": [0, 1, 2, 3]
+      }
+    }
+  ]
+  
